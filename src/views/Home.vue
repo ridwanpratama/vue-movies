@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="feature-card">
-      <router-link to="/movie/tt0409591">
+      <router-link to="/movie/tt5311514">
         <img
           src="https://static.zerochan.net/Kimi.no.Na.wa..full.2057837.jpg"
           alt="image"
