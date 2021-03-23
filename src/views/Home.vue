@@ -53,7 +53,7 @@ export default {
 
     const SearchMovies = () => {
       if (search.value != "") {
-        fetch(`http://www.omdbapi.com/?apikey=${env.apikey}&s=${search.value}`)
+        fetch(`http:s//www.omdbapi.com/?apikey=${env.apikey}&s=${search.value}`)
           .then((response) => response.json())
           .then((data) => {
             movies.value = data.Search;
